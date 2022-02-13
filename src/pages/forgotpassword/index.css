@@ -1,0 +1,19 @@
+.reset-button{
+    display: flex;
+  align-items: center;
+  padding-left: 138px;
+  border: none;
+  width: 400px;
+  height: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #a93159;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.alert{
+  color: red;
+}

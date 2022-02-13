@@ -1,0 +1,139 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../../public/loginBackground.png") no-repeat,
+    linear-gradient(90deg, #00b4db 0%, #0083b0 100%);
+
+  width: 1920px;
+  height: 1080px;
+}
+.login-area {
+  display: flex;
+  background: url("../../../public/loginPage.png");
+  width: 1496px;
+  height: 849px;
+  filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.1));
+}
+.login-field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 118px;
+  margin-left: 126px;
+}
+.login-title {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #465685;
+}
+.login-form-title {
+  display: flex;
+  margin-top: 13px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  color: #414042;
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+}
+.left-bottom-label {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #465685;
+}
+.login-button-area {
+  display: flex;
+  margin-top: 42px;
+}
+.login-button {
+  display: flex;
+  align-items: center;
+  padding-left: 168px;
+  border: none;
+  width: 400px;
+  height: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #a93159;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.continue-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+.continue-text {
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #798995;
+}
+.social-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 16px;
+}
+.register-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.account-text {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #bcbec0;
+}
+.register-text {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #465685;
+  cursor: pointer;
+}
+.change-password{
+  cursor: pointer;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.modal_content {
+  background-color: white;
+  position: absolute;
+}
+.alert-true{
+  color: green;
+}
